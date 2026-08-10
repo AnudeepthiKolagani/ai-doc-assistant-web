@@ -1,9 +1,10 @@
 import "./App.css";
+import { LadingPage } from "./pages/LandingPage";
 
 function App() {
   return (
-    <div className="text-2xl font-bold text-blue-700 text-center">
-      Welcome to AI DOC ASSISTANT
+    <div className="w-full h-screen px-20 mt-5">
+      <LadingPage />
     </div>
   );
 }
