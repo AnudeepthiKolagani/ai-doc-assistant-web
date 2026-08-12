@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Eye, EyeOff } from "lucide-react";
 import { loginSchema } from "../schemas/auth.schema";
 
-const LoginForm = () => {
+export const LoginForm = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   const {
@@ -128,4 +128,3 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;

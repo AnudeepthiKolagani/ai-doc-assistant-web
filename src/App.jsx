@@ -1,13 +1,12 @@
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import LoginPage from "./features/auth/pages/LoginPage";
+import { router } from "./app/router";
+// import LoginPage from "./features/auth/pages/LoginPage";
 // import { LadingPage } from "./pages/LandingPage";
 
 function App() {
-  return (
-    <div className="w-full h-screen px-20 mt-5">
-      {/* <LadingPage /> */}
-      <LoginPage />
-    </div>
+  return(
+    <RouterProvider router={router}/>
   );
 }
 

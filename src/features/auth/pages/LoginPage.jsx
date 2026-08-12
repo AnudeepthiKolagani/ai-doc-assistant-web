@@ -1,6 +1,6 @@
-import LoginForm from "../components/LoginForm";
+import {LoginForm} from "../components/LoginForm";
 
-const LoginPage = () => {
+export const LoginPage = () => {
   return (
     <main className="flex min-h-screen items-center justify-center bg-white px-4">
       <LoginForm />
@@ -8,4 +8,3 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
