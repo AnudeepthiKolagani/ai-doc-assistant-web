@@ -1,10 +1,12 @@
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
+import { router } from "./app/router";
+// import LoginPage from "./features/auth/pages/LoginPage";
+// import { LadingPage } from "./pages/LandingPage";
 
 function App() {
-  return (
-    <div className="text-2xl font-bold text-blue-700 text-center">
-      Welcome to AI DOC ASSISTANT
-    </div>
+  return(
+    <RouterProvider router={router}/>
   );
 }
 
